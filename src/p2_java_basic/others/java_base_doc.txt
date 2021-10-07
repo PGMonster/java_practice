@@ -1,0 +1,12 @@
+
+
+1. java 中的package
+    -1. 头部声明，class 所在包；
+    -2. 包没有父子关系。java.util和java.util.zip是不同的包，两者没有任何继承关系。
+
+
+2. 作用域
+    -1. public 定义的 class, interface, field, method 可以被其他类访问（前提有访问class 的权限）；
+    -2. private 定义的field, method 无法被其他类访问；
+    -3. protected 定义的field, method 用于继承；
+    -4. package: 包作用域是指一个类允许访问同一个package的没有public、private修饰的class，以及没有public、protected、private修饰的字段和方法。
